@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panguaxe.sky.land.mapper.VerifiCodeMapper">
+  <resultMap id="BaseResultMap" type="com.panguaxe.sky.land.model.VerifiCode">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+    <result column="smsCode" jdbcType="VARCHAR" property="smsCode" />
+    <result column="smsSort" jdbcType="INTEGER" property="smsSort" />
+    <result column="validTime" jdbcType="INTEGER" property="validTime" />
+    <result column="createDate" jdbcType="VARCHAR" property="createDate" />
+    <result column="updateDate" jdbcType="VARCHAR" property="updateDate" />
+  </resultMap>
+</mapper>

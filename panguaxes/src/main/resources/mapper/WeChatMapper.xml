@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panguaxe.sky.land.mapper.WeChatMapper">
+  <resultMap id="BaseResultMap" type="com.panguaxe.sky.land.model.WeChat">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="accountId" jdbcType="VARCHAR" property="accountId" />
+    <result column="mobile" jdbcType="VARCHAR" property="mobile" />
+    <result column="openid" jdbcType="VARCHAR" property="openid" />
+    <result column="headPture" jdbcType="VARCHAR" property="headPture" />
+    <result column="nickName" jdbcType="VARCHAR" property="nickName" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="unionid" jdbcType="VARCHAR" property="unionid" />
+    <result column="status" jdbcType="VARCHAR" property="status" />
+    <result column="createDate" jdbcType="VARCHAR" property="createDate" />
+  </resultMap>
+</mapper>

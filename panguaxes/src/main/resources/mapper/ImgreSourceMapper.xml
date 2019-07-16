@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panguaxe.sky.land.mapper.ImgreSourceMapper">
+  <resultMap id="BaseResultMap" type="com.panguaxe.sky.land.model.ImgreSource">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="redBagId" jdbcType="VARCHAR" property="redBagId" />
+    <result column="type" jdbcType="VARCHAR" property="type" />
+    <result column="resourceUrl" jdbcType="VARCHAR" property="resourceUrl" />
+    <result column="width" jdbcType="INTEGER" property="width" />
+    <result column="height" jdbcType="INTEGER" property="height" />
+    <result column="extend" jdbcType="VARCHAR" property="extend" />
+    <result column="createDate" jdbcType="VARCHAR" property="createDate" />
+    <result column="updateDate" jdbcType="VARCHAR" property="updateDate" />
+  </resultMap>
+</mapper>

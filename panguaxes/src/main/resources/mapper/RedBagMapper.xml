@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panguaxe.sky.land.mapper.RedBagMapper">
+  <resultMap id="BaseResultMap" type="com.panguaxe.sky.land.model.RedBag">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="accountId" jdbcType="VARCHAR" property="accountId" />
+    <result column="openid" jdbcType="VARCHAR" property="openid" />
+    <result column="nickName" jdbcType="VARCHAR" property="nickName" />
+    <result column="telephone" jdbcType="VARCHAR" property="telephone" />
+    <result column="headPortrait" jdbcType="VARCHAR" property="headPortrait" />
+    <result column="amount" jdbcType="DECIMAL" property="amount" />
+    <result column="num" jdbcType="INTEGER" property="num" />
+    <result column="sendTime" jdbcType="VARCHAR" property="sendTime" />
+    <result column="unclaimed" jdbcType="INTEGER" property="unclaimed" />
+    <result column="alreadyTake" jdbcType="INTEGER" property="alreadyTake" />
+    <result column="redBagType" jdbcType="VARCHAR" property="redBagType" />
+    <result column="payType" jdbcType="VARCHAR" property="payType" />
+    <result column="payState" jdbcType="INTEGER" property="payState" />
+    <result column="redbagDesc" jdbcType="VARCHAR" property="redbagDesc" />
+    <result column="showRange" jdbcType="VARCHAR" property="showRange" />
+    <result column="province" jdbcType="VARCHAR" property="province" />
+    <result column="city" jdbcType="VARCHAR" property="city" />
+    <result column="longitude" jdbcType="DECIMAL" property="longitude" />
+    <result column="latitude" jdbcType="DECIMAL" property="latitude" />
+    <result column="createDate" jdbcType="VARCHAR" property="createDate" />
+    <result column="updateDate" jdbcType="VARCHAR" property="updateDate" />
+  </resultMap>
+</mapper>

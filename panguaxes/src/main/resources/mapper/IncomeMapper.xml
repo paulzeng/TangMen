@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panguaxe.sky.land.mapper.IncomeMapper">
+  <resultMap id="BaseResultMap" type="com.panguaxe.sky.land.model.Income">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="userInfoId" jdbcType="VARCHAR" property="userInfoId" />
+    <result column="incomeName" jdbcType="VARCHAR" property="incomeName" />
+    <result column="incomeMobile" jdbcType="VARCHAR" property="incomeMobile" />
+    <result column="incomeMoney" jdbcType="DECIMAL" property="incomeMoney" />
+    <result column="tradeMoney" jdbcType="DECIMAL" property="tradeMoney" />
+    <result column="fee" jdbcType="DECIMAL" property="fee" />
+    <result column="incomeType" jdbcType="INTEGER" property="incomeType" />
+    <result column="incomeDesc" jdbcType="VARCHAR" property="incomeDesc" />
+    <result column="businessId" jdbcType="VARCHAR" property="businessId" />
+    <result column="creatorId" jdbcType="VARCHAR" property="creatorId" />
+    <result column="creatorName" jdbcType="VARCHAR" property="creatorName" />
+    <result column="creatorMobile" jdbcType="VARCHAR" property="creatorMobile" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="memo" jdbcType="VARCHAR" property="memo" />
+    <result column="createDate" jdbcType="VARCHAR" property="createDate" />
+    <result column="updateDate" jdbcType="VARCHAR" property="updateDate" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panguaxe.sky.land.mapper.SystemConfigureMapper">
+  <resultMap id="BaseResultMap" type="com.panguaxe.sky.land.model.SystemConfigure">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="configName" jdbcType="VARCHAR" property="configName" />
+    <result column="configValue" jdbcType="VARCHAR" property="configValue" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="depict" jdbcType="VARCHAR" property="depict" />
+    <result column="createDate" jdbcType="VARCHAR" property="createDate" />
+    <result column="updateDate" jdbcType="VARCHAR" property="updateDate" />
+  </resultMap>
+</mapper>

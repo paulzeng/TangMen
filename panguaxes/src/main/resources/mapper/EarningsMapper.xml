@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panguaxe.sky.land.mapper.EarningsMapper">
+  <resultMap id="BaseResultMap" type="com.panguaxe.sky.land.model.Earnings">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="userInfoId" jdbcType="VARCHAR" property="userInfoId" />
+    <result column="amount" jdbcType="DECIMAL" property="amount" />
+    <result column="ableWithdraw" jdbcType="DECIMAL" property="ableWithdraw" />
+    <result column="openid" jdbcType="VARCHAR" property="openid" />
+    <result column="memo" jdbcType="VARCHAR" property="memo" />
+    <result column="createDate" jdbcType="VARCHAR" property="createDate" />
+    <result column="updateDate" jdbcType="VARCHAR" property="updateDate" />
+  </resultMap>
+</mapper>
