@@ -11,7 +11,7 @@ import java.util.TreeMap;
 /**
 * @ClassName: ReflectUtils  
 * @Description: TODO(反射工具类)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年1月31日
  */
 public class ReflectUtils {
@@ -19,7 +19,7 @@ public class ReflectUtils {
 	/**
 	* @Title: objectToMap  
 	* @Description: TODO(反射---将object转换为TreeMap<String, Object>)  
-	* @author 作者：Mike 
+	* @author 作者：Panguaxe
 	* @date 2019年1月31日 
 	* @param @param obj
 	* @param @return
@@ -41,7 +41,7 @@ public class ReflectUtils {
 	/**
 	* @Title: objectToJson  
 	* @Description: TODO(反射---object转换为JSONObject)  
-	* @author 作者：Mike 
+	* @author 作者：Panguaxe
 	* @date 2019年1月31日 
 	* @param @param obj
 	* @param @return
@@ -63,7 +63,7 @@ public class ReflectUtils {
 	/**
 	* @Title: uppercase  
 	* @Description: TODO(转换为大写)  
-	* @author 作者：Mike 
+	* @author 作者：Panguaxe
 	* @date 2019年1月31日 
 	* @param @param str
 	* @param @return    参数  
@@ -80,7 +80,7 @@ public class ReflectUtils {
 	/**
 	* @Title: getValueForMethod  
 	* @Description: TODO(反射获取get方法)  
-	* @author 作者：Mike 
+	* @author 作者：Panguaxe
 	* @date 2019年1月31日 
 	* @param @param entity
 	* @param @param property

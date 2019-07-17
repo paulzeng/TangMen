@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayGetAgreeReq  
 * @Description: TODO(新通联---2.20查询绑卡协议号)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayGetAgreeReq extends IpayBaseRequest {

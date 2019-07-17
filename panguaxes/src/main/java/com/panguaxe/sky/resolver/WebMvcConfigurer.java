@@ -10,7 +10,7 @@ import java.util.List;
 /**
  * @Title WebMvcConfigurer
  * @Description // TODO
- * @Author 作者：Mike Cium
+ * @Author 作者：Panguaxe
  * @Version: 1.0
  * @Date 2019/7/12 18:29
  **/

@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * @Title DateUtils
  * @Description // TODO         日期工具类
- * @Author 作者：Mike Cium
+ * @Author 作者：Panguaxe
  * @Version: 1.0
  * @Date 2019/6/1 16:17
  **/
@@ -37,7 +37,7 @@ public class DateUtils {
     public static DateTimeFormatter HHmm = DateTimeFormatter.ofPattern("HH:mm");
     public static DateTimeFormatter HH = DateTimeFormatter.ofPattern("HH");
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO          协议失效日期  TODO 该日期不能大于信用卡有效期  	日期格式：yyyyMMdd
      * @Date: 2019年06月01日 16:21
      * @param validDate        信用卡有效期
@@ -70,7 +70,7 @@ public class DateUtils {
         return (s.toString().trim());
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO          获取昨天yyyyMMdd
      * @Date: 2019年06月01日 16:22
      * @param
@@ -1091,7 +1091,7 @@ public class DateUtils {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO          获得两个日期之间所有天，yyyy-MM-dd格式
      * @Date: 2019年06月01日 16:19
      * @param Beginstr      开始时间

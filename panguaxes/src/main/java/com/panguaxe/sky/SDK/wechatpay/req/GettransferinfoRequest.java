@@ -5,7 +5,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 /**
  * ClassName: GettransferinfoRequest 
  * @Description: TODO --- 微信---查询企业付款---请求
- * @author 作者：Mike
+ * @author 作者：Panguaxe
  * @date 2018年10月31日
  */
 public class GettransferinfoRequest {

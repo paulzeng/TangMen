@@ -14,7 +14,7 @@ import java.util.Map;
 /**
  * @ClassName: AliyunVoiceSendAPI
  * @Description: TODO(阿里云语音发送API)
- * @author 作者：Mike
+ * @author 作者：Panguaxe
  * @date 2019年6月1日
  */
 public class AliyunVoiceSendAPI {
@@ -30,7 +30,7 @@ public class AliyunVoiceSendAPI {
 	/**
 	* @Title: aliyunVoiceSend  
 	* @Description: TODO(阿里云发送语音验证码)  
-	* @author 作者：Mike 
+	* @author 作者：Panguaxe
 	* @date 2019年6月1日 
 	* @param @param smsCode			生成的验证码
 	* @param @param phone			接收手机号

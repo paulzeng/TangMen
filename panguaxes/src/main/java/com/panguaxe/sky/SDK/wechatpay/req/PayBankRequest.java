@@ -5,7 +5,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 /**
  * ClassName: PayBankRequest 
  * @Description: TODO --- 微信---企业付款到银行卡---请求
- * @author 作者：Mike
+ * @author 作者：Panguaxe
  * @date 2018年10月31日
  */
 public class PayBankRequest {

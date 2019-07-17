@@ -1,4 +1,4 @@
-package com.panguaxe.sky.utils;
+package com.panguaxe.sky.utils.json;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.core.JsonParseException;
@@ -9,7 +9,9 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.databind.module.SimpleModule;
+import com.panguaxe.sky.utils.string.StringUnicodeSerializerUtil;
 import net.sf.json.JSONObject;
+
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -18,7 +20,7 @@ import java.util.List;
 /**
  * @Title JsonUtil
  * @Description // TODO
- * @Author 作者：Mike Cium
+ * @Author 作者：Panguaxe
  * @Version: 1.0
  * @Date 2019/7/12 17:21
  **/
@@ -29,7 +31,7 @@ public class JsonUtil {
 
     private static ObjectMapper mapper;
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              将对象转换成json字符串。
      * @Date: 2019年07月12日 17:26
      * @param data
@@ -45,7 +47,7 @@ public class JsonUtil {
         return null;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              将json结果集转化为对象
      * @Date: 2019年07月12日 17:26
      * @param jsonData      json数据
@@ -62,7 +64,7 @@ public class JsonUtil {
         return null;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              将json数据转换成pojo对象list
      * @Date: 2019年07月12日 17:25
      * @param jsonData
@@ -81,7 +83,7 @@ public class JsonUtil {
         return null;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              将Object对象以json形式写入response返回
      * @Date: 2019年07月12日 17:25
      * @param response
@@ -101,7 +103,7 @@ public class JsonUtil {
         return flag;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO          根据key获取结果值
      * @Date: 2019年07月12日 17:23
      * @param jsonString
@@ -116,7 +118,7 @@ public class JsonUtil {
         return obj;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              将json字符串转换成java对象
      * @Date: 2019年07月12日 17:23
      * @param json          json准备转换的json字符串
@@ -138,7 +140,7 @@ public class JsonUtil {
         return object;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO          获取ObjectMapper实例 Inclusion Inclusion.ALWAYS 全部列入 Inclusion
      *                              Inclusion.NON_DEFAULT 字段和对象默认值相同的时候不会列入 Inclusion Inclusion.NON_EMPTY
      *                              字段为NULL或者""的时候不会列入 Inclusion Inclusion.NON_NULL 字段为NULL时候不会列入
@@ -164,7 +166,7 @@ public class JsonUtil {
         return mapper;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              根据key获取结果值字符串
      * @Date: 2019年07月12日 17:24
      * @param jsonString
@@ -180,7 +182,7 @@ public class JsonUtil {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO          根据key获取结果值字符串
      * @Date: 2019年07月12日 17:24
      * @param jsonString

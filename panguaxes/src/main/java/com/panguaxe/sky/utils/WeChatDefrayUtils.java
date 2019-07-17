@@ -3,6 +3,7 @@ package com.panguaxe.sky.utils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.panguaxe.sky.common.AuthToken;
 import com.panguaxe.sky.config.WeChatPayConfig;
+import com.panguaxe.sky.utils.safe.Md5Utils;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 import com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder;
@@ -316,7 +317,7 @@ public class WeChatDefrayUtils {
 
     /**
      * @Description: TODO --- 将参数拼成map,生产签名
-     * @author 作者：Mike
+     * @author 作者：Panguaxe
      * @date 2019年07月12日 14:17
      */
     public static SortedMap<String, Object> buildParamMap(Object data) {

@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * @Title AppSDKController
  * @Description // TODO
- * @Author 作者：Mike Cium
+ * @Author 作者：Panguaxe
  * @Version: 1.0
  * @Date 2019/7/5 14:34
  **/

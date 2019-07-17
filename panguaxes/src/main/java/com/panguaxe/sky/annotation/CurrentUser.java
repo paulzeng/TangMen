@@ -6,7 +6,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @Author 作者 : Ascetic Monk
+ * @Author 作者 : Panguaxe
  * @Description //TODO          当前用户模型,需配合Autorization注解使用,否则无效且抛出异常
  * @Date: 2019年07月12日 11:40
  **/

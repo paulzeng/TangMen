@@ -23,7 +23,7 @@ import java.util.Random;
 /**
  * @Title FaceOCRUtil
  * @Description // TODO
- * @Author 作者：Mike Cium
+ * @Author 作者：Panguaxe
  * @Version: 1.0
  * @Date 2019/7/5 10:47
  **/
@@ -45,7 +45,7 @@ public class FaceOCRUtil {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              处理结果
      * @Date: 2019年07月05日 13:21
      * @param type
@@ -110,7 +110,7 @@ public class FaceOCRUtil {
 
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              发送请求
      * @Date: 2019年07月05日 11:46
      * @param type
@@ -185,7 +185,7 @@ public class FaceOCRUtil {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              校验参数是否为空
      * @Date: 2019年07月05日 11:14
      * @param file                  待识别文件
@@ -200,7 +200,7 @@ public class FaceOCRUtil {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              校验文件大小是否大于2MB
      * @Date: 2019年07月05日 11:19
      * @param file
@@ -217,7 +217,7 @@ public class FaceOCRUtil {
         return flag;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO                  根据指定大小压缩图片
      * @Date: 2019年07月05日 11:25
      * @param imageBytes        源图片字节数组
@@ -239,7 +239,7 @@ public class FaceOCRUtil {
         return imageBytes;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              自动调节精度(经验数值)
      * @Date: 2019年07月05日 11:27
      * @param size          源图片大小
@@ -259,7 +259,7 @@ public class FaceOCRUtil {
         return accuracy;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              文件读取 写入
      * @Date: 2019年07月05日 11:16
      * @param ins
@@ -281,7 +281,7 @@ public class FaceOCRUtil {
         }
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              构建APIKey和APISecret 等必须参数
      * @Date: 2019年07月05日 11:30
      * @param
@@ -297,7 +297,7 @@ public class FaceOCRUtil {
         return map;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO                  构建图片参数  如果大于2MB做压缩处理  否则原图大小直接上送
      * @Date: 2019年07月05日 11:43
      * @param file
@@ -316,7 +316,7 @@ public class FaceOCRUtil {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              初始文件大小
      * @Date: 2019年07月05日 11:41
      * @param f
@@ -350,7 +350,7 @@ public class FaceOCRUtil {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              JSONArray数组转map
      * @Date: 2019年07月05日 13:14
      * @param array

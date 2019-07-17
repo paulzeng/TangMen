@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayUnBindCardReq  
 * @Description: TODO(新通联---2.8商户解绑消费银行卡)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayUnBindCardReq extends IpayBaseRequest {

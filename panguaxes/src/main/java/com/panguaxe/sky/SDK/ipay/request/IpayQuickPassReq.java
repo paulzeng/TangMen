@@ -6,7 +6,7 @@ import com.panguaxe.sky.SDK.ipay.config.IpayAllinPayConfig;
 /**
 * @ClassName: IpayQuickPassReq  
 * @Description: TODO(新通联---2.12快捷小额免短信支付)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayQuickPassReq extends IpayBaseRequest {

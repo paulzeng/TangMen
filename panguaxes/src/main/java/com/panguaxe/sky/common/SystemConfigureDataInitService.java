@@ -17,7 +17,7 @@ import java.util.concurrent.ConcurrentHashMap;
 /**
  * @Title SystemConfigureDataInitService
  * @Description // TODO
- * @Author 作者：Mike Cium
+ * @Author 作者：Panguaxe
  * @Version: 1.0
  * @Date 2019/6/5 11:15
  **/
@@ -51,7 +51,7 @@ public class SystemConfigureDataInitService implements InitializingBean, Servlet
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              根据键取值
      * @Date: 2019年06月05日 11:50
      * @param configKey             键名

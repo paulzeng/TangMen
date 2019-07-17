@@ -35,7 +35,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO          Java类的类注释
      * @Date: 2019年07月01日 09:05
      * @param innerClass
@@ -57,7 +57,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
         innerClass.addJavaDocLine(" */");
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              为类添加注释
      * @Date: 2019年07月01日 09:06
      * @param innerClass
@@ -83,7 +83,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
         innerClass.addJavaDocLine(" */");
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              Mybatis的Mapper.xml文件里面的注释
      * @Date: 2019年07月01日 09:07
      * @param xmlElement
@@ -93,7 +93,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
     public void addComment(final XmlElement xmlElement) {
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              从该配置中的任何属性添加此实例的属性CommentGenerator配置。这个方法将在任何其他方法之前被调用。
      * @Date: 2019年07月01日 09:09
      * @param properties
@@ -112,7 +112,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              此方法返回格式化的日期字符串以包含在Javadoc标记中和XML注释。 如果您不想要日期，则可以返回null在这些文档元素中。
      * @Date: 2019年07月01日 09:12
      * @param
@@ -126,7 +126,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              此方法为其添加了自定义javadoc标签。
      * @Date: 2019年07月01日 09:12
      * @param javaElement
@@ -149,7 +149,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
         javaElement.addJavaDocLine(sb.toString());
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              为枚举添加注释
      * @Date: 2019年07月01日 09:13
      * @param innerEnum
@@ -169,7 +169,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
         innerEnum.addJavaDocLine(" */");
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              Java属性注释
      * @Date: 2019年07月01日 09:14
      * @param field
@@ -180,7 +180,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
     public void addFieldComment(final Field field, final IntrospectedTable introspectedTable) {
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              为字段添加注释
      * @Date: 2019年07月01日 09:15
      * @param field
@@ -205,7 +205,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
         field.addJavaDocLine(" */");
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              普通方法的注释，这里主要是XXXMapper.java里面的接口方法的注释
      * @Date: 2019年07月01日 09:16
      * @param method
@@ -236,7 +236,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              给getter方法加注释
      * @Date: 2019年07月01日 09:17
      * @param method
@@ -263,7 +263,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
         method.addJavaDocLine(" */");
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO                  给setter方法加注释
      * @Date: 2019年07月01日 09:17
      * @param method
@@ -291,7 +291,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
         method.addJavaDocLine(" */");
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO                  给Java文件加注释，这个注释是在文件的顶部，也就是package上面。
      * @Date: 2019年07月01日 09:18
      * @param compilationUnit
@@ -309,7 +309,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO                  为调用此方法作为根元素的第一个子节点添加注释。
      * @Date: 2019年07月01日 09:19
      * @param rootElement
@@ -320,7 +320,7 @@ public class MyBatisGeneratorUtil  implements CommentGenerator {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO                  为模型类添加注释
      * @Date: 2019年07月01日 09:19
      * @param arg0

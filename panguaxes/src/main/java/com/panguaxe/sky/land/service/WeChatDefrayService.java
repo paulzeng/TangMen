@@ -24,7 +24,7 @@ public interface WeChatDefrayService {
      **/
     SortedMap<String, Object> weChatDefray(HttpServletRequest req,int money,String openId,String orderNo,String bussType,String payType);
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO      微信支付--- 统一下单
      * @Date: 2019年07月12日 13:33
      * @param body

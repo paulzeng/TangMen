@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayPaySmsReq  
 * @Description: TODO(新通联---2.11快捷支付短信重新获取)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayPaySmsReq extends IpayBaseRequest {

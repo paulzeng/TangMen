@@ -8,7 +8,7 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * @Author 作者 : Ascetic Monk
+ * @Author 作者 : Panguaxe
  * @Description //TODO 				AES加解密工具类
  * @Date: 2019年06月06日 14:07
  **/
@@ -25,7 +25,7 @@ public class AESEncryptUtil {
 	}
 
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				获取加密后的AesKey秘钥
 	 * @Date: 2019年06月06日 13:44
 	 * @param mobileKey				手机号
@@ -35,7 +35,7 @@ public class AESEncryptUtil {
 		return MD5Util.MD5(mobileKey).substring(10, 26);//截取md5之后的32位的10-26位字符串
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				AES加密
 	 * @Date: 2019年06月06日 13:45
 	 * @param content			加密内容
@@ -46,7 +46,7 @@ public class AESEncryptUtil {
 		return getCiphertext(content,key);
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				AES加密
 	 * @Date: 2019年06月06日 13:46
 	 * @param content			加密内容
@@ -57,7 +57,7 @@ public class AESEncryptUtil {
 		return getCiphertext(content,key);
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				根据明文串和key加密处理
 	 * @Date: 2019年06月06日 14:16
 	 * @param plaintext
@@ -86,7 +86,7 @@ public class AESEncryptUtil {
 		return null;
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				字符串需要位移个数
 	 * @Date: 2019年06月06日 13:47
 	 * @param content		需要位移的字符串内容
@@ -96,7 +96,7 @@ public class AESEncryptUtil {
 		return content.length()/2;//左位移个数
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				AES解密
 	 * @Date: 2019年06月06日 13:48
 	 * @param content			加密内容
@@ -129,7 +129,7 @@ public class AESEncryptUtil {
 		return null;
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				获取cipher对象
 	 * @Date: 2019年06月06日 13:48
 	 * @param mode			加密方式
@@ -146,7 +146,7 @@ public class AESEncryptUtil {
 		return cipher;
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				对字符串进行左位移
 	 * @Date: 2019年06月06日 13:49
 	 * @param content			需要左位移字符串
@@ -162,7 +162,7 @@ public class AESEncryptUtil {
 		return reChange(content);
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO				对字符串进行处理
 	 * @Date: 2019年06月06日 13:50
 	 * @param content			需要处理的字符串
@@ -179,7 +179,7 @@ public class AESEncryptUtil {
 		return String.valueOf(contents);
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO					对字符串进行右位移
 	 * @Date: 2019年06月06日 13:50
 	 * @param content			需要右位移字符串

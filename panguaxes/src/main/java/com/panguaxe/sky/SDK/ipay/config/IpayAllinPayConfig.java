@@ -20,7 +20,7 @@ public class IpayAllinPayConfig {
 	/**
 	* @ClassName: IPAY_REQ_URL  
 	* @Description: TODO(获取请求url)  
-	* @author 作者：Mike  
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	 */
 	public static enum IPAY_REQ_URL {
@@ -60,7 +60,7 @@ public class IpayAllinPayConfig {
 	/**
 	* @ClassName: IPAY_BUSINESS_STATE  
 	* @Description: TODO(业务状态码)  
-	* @author 作者：Mike  
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	 */
 	public static enum IPAY_BUSINESS_STATE {
@@ -87,7 +87,7 @@ public class IpayAllinPayConfig {
 	    private String msg;
 
 	    /**
-	     * @Author 作者 : Ascetic Monk
+	     * @Author 作者 : Panguaxe
 	     * @Description //TODO              根据错误码获取错误信息描述
 	     * @Date: 2019年7月4日 10:32
 	     * @param code          错误码

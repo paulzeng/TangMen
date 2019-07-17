@@ -55,7 +55,7 @@ public enum AliyunVoiceSendEnum {
 	/**
 	* @Title: getReturnCode  
 	* @Description: TODO(根据错误码获取错误信息及描述)  
-	* @author 作者：Mike 
+	* @author 作者：Panguaxe
 	* @date 2019年6月1日 
 	* @param @param returnCode
 	* @param @return    参数  

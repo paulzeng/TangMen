@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayBindCardReq  
 * @Description: TODO(新通联Ipay---2.5商户绑定消费银行卡)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayBindCardReq extends IpayBaseRequest {

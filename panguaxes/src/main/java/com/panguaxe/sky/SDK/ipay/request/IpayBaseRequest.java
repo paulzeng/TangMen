@@ -7,7 +7,7 @@ import com.panguaxe.sky.utils.date.DateUtils;
 /**
 * @ClassName: IpayBaseRequest  
 * @Description: TODO(新通联Ipay---公共请求参数)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月3日
  */
 public class IpayBaseRequest {

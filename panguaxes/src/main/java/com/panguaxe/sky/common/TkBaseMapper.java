@@ -6,7 +6,7 @@ import tk.mybatis.mapper.common.Mapper;
 import tk.mybatis.mapper.common.MySqlMapper;
 
 /**
- * @Author 作者 : Ascetic Monk
+ * @Author 作者 : Panguaxe
  * @Description //TODO                  通用mapper
  * @Date: 2019年06月05日 15:27
  **/

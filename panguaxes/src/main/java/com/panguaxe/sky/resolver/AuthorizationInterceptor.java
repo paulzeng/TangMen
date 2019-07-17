@@ -5,9 +5,9 @@ import com.panguaxe.sky.common.APIResult;
 import com.panguaxe.sky.land.model.Account;
 import com.panguaxe.sky.land.service.IAccountService;
 import com.panguaxe.sky.utils.JWTUtil;
-import com.panguaxe.sky.utils.JsonUtil;
 import com.panguaxe.sky.utils.ObjectUtils;
-import com.panguaxe.sky.utils.RequestUtil;
+import com.panguaxe.sky.utils.http.RequestUtil;
+import com.panguaxe.sky.utils.json.JsonUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +19,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.lang.reflect.Method;
 /**
- * @Author 作者 : Ascetic Monk
+ * @Author 作者 : Panguaxe
  * @Description //TODO              基于jwt的登录拦截器
  * @Date: 2019年07月12日 17:06
  **/

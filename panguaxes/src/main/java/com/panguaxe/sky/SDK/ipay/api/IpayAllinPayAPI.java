@@ -18,7 +18,7 @@ import java.util.Map;
 /**
 * @ClassName: IpayAllinPayAPI  
 * @Description: TODO(新通联统一入口API)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayAllinPayAPI {
@@ -34,7 +34,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayMerchantInput
 	* @Description: TODO(新通联Ipay---2.2商户进件)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月3日
 	* @throws
 	 */
@@ -46,7 +46,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayMerchantInputQuery
 	* @Description: TODO(新通联Ipay---2.3商户进件状态查询)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月3日
 	* @throws
 	 */
@@ -59,7 +59,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayMerchantRateRevision
 	* @Description: TODO(新通联Ipay---2.4商户结算/费率信息修改)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -71,7 +71,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayBindCard
 	* @Description: TODO(新通联Ipay---2.5商户绑定消费银行卡)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -83,7 +83,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayResendBindSms
 	* @Description: TODO(新通联Ipay---2.6重新获取绑卡验证码)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -95,7 +95,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayBindCardConfirm
 	* @Description: TODO(新通联Ipay---2.7商户绑定银行卡确认)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -107,7 +107,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayUnBindCard
 	* @Description: TODO(新通联Ipay---2.8商户解绑消费银行卡)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -119,7 +119,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayApplyPay
 	* @Description: TODO(新通联Ipay---2.9快捷交易支付申请)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -131,7 +131,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayConfirmPay
 	* @Description: TODO(新通联Ipay---2.10快捷交易支付确认)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -143,7 +143,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayPaySms
 	* @Description: TODO(新通联Ipay---2.11快捷支付短信重新获取)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -155,7 +155,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayQuickPass
 	* @Description: TODO(新通联Ipay---2.12快捷小额免短信支付)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -167,7 +167,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayTradeQuery
 	* @Description: TODO(新通联Ipay---2.13快捷交易查询)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -179,7 +179,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayMerchantBalanceQuery
 	* @Description: TODO(新通联Ipay---2.14余额查询)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -191,7 +191,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayWithdraw
 	* @Description: TODO(新通联Ipay---2.15提现)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -203,7 +203,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayPay
 	* @Description: TODO(新通联Ipay---2.16付款)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -215,7 +215,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayQueryPay
 	* @Description: TODO(新通联Ipay---2.17提现(付款)交易查询)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -227,7 +227,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: ipayGetAgree
 	* @Description: TODO(新通联Ipay---2.20查询绑卡协议号)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @throws
 	 */
@@ -240,7 +240,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: exceteState
 	* @Description: TODO(统一执行)
-	* @author 作者：Mike
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日
 	* @param @param m				请求参数
 	* @param @param reqUrl			请求地址
@@ -266,7 +266,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: getResult  
 	* @Description: TODO(统一发送请求并进行初步业务处理)  
-	* @author 作者：Mike 
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日 
 	* @param @param m				请求参数
 	* @param @param reqUrl			请求地址
@@ -295,8 +295,9 @@ public class IpayAllinPayAPI {
 		if ("200".equals(code)) {
 			res = returnResultHandle(res, reqUrl, paramMap, result, paramMap.toString(), isHasStatus, statusName);
 		} else {
-			if (result.containsKey("data"))
+			if (result.containsKey("data")){
 				res.setData(result.getJSONObject("data"));
+			}
 			res.setMessage(ERROR_NOKOWN_MESSAGE);
 			res.setResultCode(GlobalEnums.RESULT_CODE_ENUMS.NETWORK_ANOMALY.getResultCode());
 		}
@@ -306,7 +307,7 @@ public class IpayAllinPayAPI {
 	/**
 	* @Title: returnResultHandle  
 	* @Description: TODO(统一业务处理  最终返回结果)  
-	* @author 作者：Mike 
+	* @author 作者：Panguaxe
 	* @date 2019年7月4日 
 	* @param @param m				请求参数
 	* @param @param reqUrl			请求地址
@@ -321,7 +322,7 @@ public class IpayAllinPayAPI {
 			if (result.containsKey("data")) {
 				JSONObject resultData = result.getJSONObject("data");// 通联返回data
 				if (resultData.containsKey("trxid")) {
-					res.setOederid(resultData.getString("trxid"));
+					res.setOrderid(resultData.getString("trxid"));
 				}
 				String retcode = resultData.getString("retcode");
 				String retmsg = resultData.getString("retmsg");
