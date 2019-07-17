@@ -83,7 +83,7 @@ public class PasswordSafeUtils {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              不能全是相同的数字或者字母（如：000000、111111、aaaaaa） 全部相同返回true
      * @Date: 2019年07月13日 09:58
      * @param numOrStr
@@ -102,7 +102,7 @@ public class PasswordSafeUtils {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              不能是连续的数字--递增（如：123456、12345678）连续数字返回true
      * @Date: 2019年07月13日 09:59
      * @param numOrStr

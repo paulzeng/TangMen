@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 /**
  * @Title ApiSysConfigPreloadingController
  * @Description // TODO
- * @Author 作者：Mike Cium
+ * @Author 作者：Panguaxe
  * @Version: 1.0
  * @Date 2019/6/5 12:49
  **/
@@ -22,7 +22,7 @@ public class ApiSysConfigPreloadingController {
     private ISystemConfigureService systemConfigureService;
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              更新系统配置预加载数据
      * @Date: 2019年06月05日 16:34
      * @param configKey     键名

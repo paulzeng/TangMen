@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * @Title OkHttpUtils
  * @Description // TODO
- * @Author 作者：Mike Cium
+ * @Author 作者：Panguaxe
  * @Version: 1.0
  * @Date 2019/6/1 17:23
  **/
@@ -31,7 +31,7 @@ public class OkHttpUtils {
 
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              get请求不带参数
      * @Date: 2019年06月01日 17:46
      * @param url
@@ -42,7 +42,7 @@ public class OkHttpUtils {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              get请求带参数
      * @Date: 2019年06月01日 17:46
      * @param reqUrl
@@ -78,7 +78,7 @@ public class OkHttpUtils {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              表单形式post请求 map的请求
      * @Date: 2019年06月01日 17:54
      * @param url
@@ -109,7 +109,7 @@ public class OkHttpUtils {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              Json body形式的post请求
      * @Date: 2019年06月01日 18:07
      * @Param  * @param url
@@ -132,7 +132,7 @@ public class OkHttpUtils {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              表单形式post请求
      * @Date: 2019年06月01日 18:09
      * @Param  * @param url
@@ -163,7 +163,7 @@ public class OkHttpUtils {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              requestBody形式
      * @Date: 2019年06月01日 18:10
      * @Param  * @param url
@@ -199,7 +199,7 @@ public class OkHttpUtils {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              传输文件或者图片的公用方法(multipartFile)
      * @Date: 2019年06月01日 18:14
      * @param url
@@ -238,7 +238,7 @@ public class OkHttpUtils {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              传输文件或者图片的公用方法
      * @Date: 2019年06月01日 18:22
      * @param url
@@ -275,7 +275,7 @@ public class OkHttpUtils {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              统一结果处理
      * @Date: 2019年06月01日 17:40
      * @Param  * @param call
@@ -316,7 +316,7 @@ public class OkHttpUtils {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              获得OkHttpClient
      * @Date: 2019年06月01日 17:50
      * @return okhttp3.OkHttpClient
@@ -326,7 +326,7 @@ public class OkHttpUtils {
     }
 
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              字符串转换成接送
      * @Date: 2019年06月01日 18:28
      * @param jsonObject
@@ -345,7 +345,7 @@ public class OkHttpUtils {
         return map;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO              根据key获取结果值字符串
      * @Date: 2019年06月01日 18:28
      * @param jsonString
@@ -361,7 +361,7 @@ public class OkHttpUtils {
         return result;
     }
     /**
-     * @Author 作者 : Ascetic Monk
+     * @Author 作者 : Panguaxe
      * @Description //TODO          根据key获取结果值
      * @Date: 2019年06月01日 18:29
      * @Param  * @param jsonString

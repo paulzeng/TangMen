@@ -7,7 +7,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 /**
  * ClassName: PayUnifiedorderRequest 
  * @Description: TODO --- 统一下单
- * @author 作者：Mike
+ * @author 作者：Panguaxe
  * @date 2018年11月26日
  */
 public class PayUnifiedorderRequest {

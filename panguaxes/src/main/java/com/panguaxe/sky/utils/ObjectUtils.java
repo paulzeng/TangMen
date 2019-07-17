@@ -17,7 +17,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @Author 作者 : Ascetic Monk
+ * @Author 作者 : Panguaxe
  * @Description //TODO	万能工具类
  * @Date: 2019年06月01日 15:59
  **/
@@ -39,7 +39,7 @@ public class ObjectUtils {
 	/**
 	* @Title: generateInvitecode
 	* @Description: TODO(生成8位不重复的邀请码)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月22日 
 	* @param @return    参数  
 	* @return String    返回类型  
@@ -57,7 +57,7 @@ public class ObjectUtils {
 	  
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO			微信支付随机字符串
 	 * @Date: 2019年07月12日 13:46
 	 * @param length
@@ -77,7 +77,7 @@ public class ObjectUtils {
 	/**
 	* @Title: orderNoGeneration  
 	* @Description: TODO(生成订单号---yyyyMMddHHmmssSS)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @return    参数  
 	* @return String    返回类型  
@@ -96,7 +96,7 @@ public class ObjectUtils {
 	/**
 	* @Title: getUUID  
 	* @Description: TODO(生成UUID)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @return    参数  
 	* @return String    返回类型  
@@ -109,7 +109,7 @@ public class ObjectUtils {
 	/**
 	* @Title: paramSort  
 	* @Description: TODO(将map对象参数排序)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param params
 	* @param @return    参数  
@@ -135,7 +135,7 @@ public class ObjectUtils {
 	/**
 	* @Title: isAjaxRequest  
 	* @Description: TODO(判断是否为Ajax请求)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param request
 	* @param @return    参数  
@@ -154,7 +154,7 @@ public class ObjectUtils {
 	/**
 	* @Title: isAjaxRequest  
 	* @Description: TODO(判断是否为Ajax请求)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param request
 	* @param @return    参数  
@@ -173,7 +173,7 @@ public class ObjectUtils {
 	/**
 	* @Title: getSalt  
 	* @Description: TODO(生成盐值)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param length
 	* @param @return    参数  
@@ -193,7 +193,7 @@ public class ObjectUtils {
 	/**
 	* @Title: generateCode  
 	* @Description: TODO(生成验证码)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @return    参数  
 	* @return String    返回类型  
@@ -205,7 +205,7 @@ public class ObjectUtils {
 	/**
 	* @Title: unicode2String  
 	* @Description: TODO(unicode 转字符串)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param unicode
 	* @param @return    参数  
@@ -226,7 +226,7 @@ public class ObjectUtils {
 	/**
 	* @Title: isEmpty  
 	* @Description: TODO(判断对象是否为空)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param obj
 	* @param @return    参数  
@@ -250,7 +250,7 @@ public class ObjectUtils {
 	/**
 	* @Title: getSize  
 	* @Description: TODO(获取对象大小)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param obj
 	* @param @return    参数  
@@ -271,7 +271,7 @@ public class ObjectUtils {
 	/**
 	* @Title: isNullOrUndefined  
 	* @Description: TODO(检验对象是否为undefined 或者null)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param obj
 	* @param @return    参数  
@@ -290,7 +290,7 @@ public class ObjectUtils {
 	/**
 	* @Title: isChinese  
 	* @Description: TODO(校验对象是否是中文)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param object
 	* @param @return    参数  
@@ -314,7 +314,7 @@ public class ObjectUtils {
 	/**
 	* @Title: isNotEmpty  
 	* @Description: TODO(判断对象是否不为空)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param obj
 	* @param @return    参数  
@@ -335,7 +335,7 @@ public class ObjectUtils {
 	/**
 	* @Title: isEmail  
 	* @Description: TODO(判断是否是邮箱)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param email
 	* @param @return    参数  
@@ -356,7 +356,7 @@ public class ObjectUtils {
 	/**
 	* @Title: URLDecoder  
 	* @Description: TODO(URL---解码)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param str
 	* @param @return    参数  
@@ -376,7 +376,7 @@ public class ObjectUtils {
 	/**
 	* @Title: URLEncode  
 	* @Description: TODO(URL---编码)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param str
 	* @param @return    参数  
@@ -396,7 +396,7 @@ public class ObjectUtils {
 	 /**
 	 * @Title: gtzero  
 	 * @Description: TODO(判断BigDecimal是否大于0)  
-	 * @author 作者：Ascetic Monk
+	 * @author 作者：Panguaxe
 	 * @date 2019年2月18日 
 	 * @param @param v
 	 * @param @return    参数  
@@ -415,7 +415,7 @@ public class ObjectUtils {
 	/**
 	* @Title: contains  
 	* @Description: TODO(判断某个字符串是否存在于数组中)  
-	* @author 作者：Ascetic Monk
+	* @author 作者：Panguaxe
 	* @date 2019年2月18日 
 	* @param @param stringArray
 	* @param @param source
@@ -434,7 +434,7 @@ public class ObjectUtils {
 	/**
 	 * @Title: verifCodeGenerator
 	 * @Description: TODO(生成6位数字短信验证码)
-	 * @author 作者：Ascetic Monk
+	 * @author 作者：Panguaxe
 	 * @date 2019年6月1日
 	 * @param @return    参数
 	 * @return String    返回类型
@@ -449,7 +449,7 @@ public class ObjectUtils {
 	/**
 	 * @Title: smsCodeGenerator
 	 * @Description: TODO(生成4位数字短信验证码)
-	 * @author 作者：Ascetic Monk
+	 * @author 作者：Panguaxe
 	 * @date 2019年6月1日
 	 * @param @return    参数
 	 * @return String    返回类型
@@ -461,7 +461,7 @@ public class ObjectUtils {
 		return String.format("%04d", randomNum);
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO			获取终端IP
 	 * @Date: 2019年07月12日 13:55
 	 * @param request
@@ -497,7 +497,7 @@ public class ObjectUtils {
 		return ipAddress;
 	}
 	/**
-	 * @Author 作者 : Ascetic Monk
+	 * @Author 作者 : Panguaxe
 	 * @Description //TODO		获取本机IP
 	 * @Date: 2019年06月01日 16:03
 	 * @Param  * @param

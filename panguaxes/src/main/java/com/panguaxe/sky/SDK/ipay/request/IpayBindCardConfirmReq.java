@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayBindCardConfirmReq  
 * @Description: TODO(新通联---2.7商户绑定银行卡确认)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayBindCardConfirmReq extends IpayBaseRequest{

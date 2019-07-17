@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayResendBindSmsReq  
 * @Description: TODO(新通联---2.6重新获取绑卡验证码)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayResendBindSmsReq extends IpayBaseRequest {

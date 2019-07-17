@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayMerchantInputReq  
 * @Description: TODO(新通联Ipay---2.2商户进件请求参数)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月3日
  */
 public class IpayMerchantInputReq extends IpayBaseRequest {

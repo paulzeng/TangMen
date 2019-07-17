@@ -6,7 +6,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 /**
  * ClassName: PayOrderqueryRequest 
  * @Description: TODO --- 查询订单(统一下单)
- * @author 作者：Mike
+ * @author 作者：Panguaxe
  * @date 2018年11月27日
  */
 public class PayOrderqueryRequest {

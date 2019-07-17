@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayQueryPayReq  
 * @Description: TODO(新通联---2.17提现(付款)交易查询)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayQueryPayReq extends IpayBaseRequest {

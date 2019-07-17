@@ -20,7 +20,7 @@ import java.util.Map;
  * ClassName: WeChatPayApi
  * 
  * @Description: TODO --- 微信---支付提现API统一 入口
- * @author 作者：Mike
+ * @author 作者：Panguaxe
  * @date 2018年10月26日
  */
 public class WeChatPayApi {
@@ -47,7 +47,7 @@ public class WeChatPayApi {
 	 * @Description: TODO --- 微信支付提现---企业付款
 	 * @return ResultEntity<JSONObject>
 	 * @throws @author
-	 *             作者：Mike
+	 *             作者：Panguaxe
 	 * @date 2018年10月26日
 	 */
 	public ResultEntity<JSONObject> weChatTransfers(TransfersRequest request) {
@@ -58,7 +58,7 @@ public class WeChatPayApi {
 	 * @Description: TODO --- 微信---查询企业付款
 	 * @return ResultEntity<JSONObject>  
 	 * @throws
-	 * @author 作者：Mike
+	 * @author 作者：Panguaxe
 	 * @date 2018年10月31日
 	 */
 	public ResultEntity<JSONObject> weChatGettransferinfo(GettransferinfoRequest request) {
@@ -71,7 +71,7 @@ public class WeChatPayApi {
 	 * @Description: TODO --- 微信---企业付款到银行卡
 	 * @return ResultEntity<JSONObject>  
 	 * @throws
-	 * @author 作者：Mike
+	 * @author 作者：Panguaxe
 	 * @date 2018年10月31日
 	 */
 	public ResultEntity<JSONObject> weChatPayBank(PayBankRequest request) {
@@ -83,7 +83,7 @@ public class WeChatPayApi {
 	 * @Description: TODO --- 获取公钥
 	 * @return ResultEntity<JSONObject>  
 	 * @throws
-	 * @author 作者：Mike
+	 * @author 作者：Panguaxe
 	 * @date 2018年10月31日
 	 */
 	public ResultEntity<JSONObject> weChatGetpublickey(GetpublickeyRequest request) {
@@ -94,7 +94,7 @@ public class WeChatPayApi {
 	 * @Description: TODO --- 统一下单
 	 * @return ResultEntity<JSONObject>  
 	 * @throws
-	 * @author 作者：Mike
+	 * @author 作者：Panguaxe
 	 * @date 2018年11月26日
 	 */
 	public ResultEntity<JSONObject> weChatPayUnifiedorder(PayUnifiedorderRequest request) {
@@ -106,7 +106,7 @@ public class WeChatPayApi {
 	 * @Description: TODO --- 查询订单（统一下单）
 	 * @return ResultEntity<JSONObject>  
 	 * @throws
-	 * @author 作者：Mike
+	 * @author 作者：Panguaxe
 	 * @date 2018年11月27日
 	 */
 	public ResultEntity<JSONObject> weChatPayOrderquery(PayOrderqueryRequest request) {
@@ -118,7 +118,7 @@ public class WeChatPayApi {
 	 * @Description: TODO --- 通用执行方法
 	 * @return ResultEntity<JSONObject>
 	 * @throws @author
-	 *             作者：Mike
+	 *             作者：Panguaxe
 	 * @date 2018年10月26日
 	 */
 	private ResultEntity<JSONObject> exceteState(ResultEntity<JSONObject> res, Object m, String method,
@@ -140,7 +140,7 @@ public class WeChatPayApi {
 	 * @Description: TODO --- 通用核心业务处理方法
 	 * @return ResultEntity<JSONObject>
 	 * @throws @author
-	 *             作者：Mike
+	 *             作者：Panguaxe
 	 * @date 2018年10月26日
 	 */
 	private ResultEntity<JSONObject> getResult(ResultEntity<JSONObject> res, String reqUrl, Object object) throws Exception {

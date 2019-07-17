@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayConfirmPayReq  
 * @Description: TODO(新通联---2.10快捷交易支付确认)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayConfirmPayReq extends IpayBaseRequest {

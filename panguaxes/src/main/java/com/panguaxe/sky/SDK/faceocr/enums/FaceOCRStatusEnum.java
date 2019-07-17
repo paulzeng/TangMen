@@ -79,7 +79,7 @@ public enum FaceOCRStatusEnum {
         private String url;
 
         /**
-         * @Author 作者 : Ascetic Monk
+         * @Author 作者 : Panguaxe
          * @Description //TODO              根据类型获取对应的URL
          * @Date: 2019年7月4日 10:32
          * @param type

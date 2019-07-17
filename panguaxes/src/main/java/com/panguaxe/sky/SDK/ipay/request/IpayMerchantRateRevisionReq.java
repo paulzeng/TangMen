@@ -3,7 +3,7 @@ package com.panguaxe.sky.SDK.ipay.request;
 /**
 * @ClassName: IpayMerchantRateRevisionReq  
 * @Description: TODO(新通联---2.4商户结算/费率信息修改)  
-* @author 作者：Mike  
+* @author 作者：Panguaxe
 * @date 2019年7月4日
  */
 public class IpayMerchantRateRevisionReq extends IpayBaseRequest {

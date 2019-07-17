@@ -317,7 +317,7 @@ public class WeChatDefrayUtils {
 
     /**
      * @Description: TODO --- 将参数拼成map,生产签名
-     * @author 作者：Mike
+     * @author 作者：Panguaxe
      * @date 2019年07月12日 14:17
      */
     public static SortedMap<String, Object> buildParamMap(Object data) {

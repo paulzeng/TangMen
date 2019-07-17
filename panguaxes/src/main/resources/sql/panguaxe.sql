@@ -187,7 +187,7 @@ CREATE TABLE `ly_r_redbag` (
 -- ----------------------------
 -- Records of ly_r_redbag
 -- ----------------------------
-INSERT INTO `ly_r_redbag` VALUES ('46AC605E4E9E477BA0114A0DE9DBB717', 'ka2r8exFeGad49WLiKY', 'oaASb1Q18_BQhQi2wGWDpSWMquBc', 'Mike Cium', '18300665808', 'http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eo74QWxFOpRB7lu4icp9S1puGcphjVYZ21Yg4Zz6qtuic65OiadK2QZ6oCMlibibqNnAs6QRiavzb8D0YNA/132', '6.000', '6', '2019-07-16 21:29:42', '6', '0', 'LUCK', 'JSAPI', '-1', '红包大吉大利', '30', null, null, '113.67602500', '34.75229300', '2019-07-16 21:29:42', null);
+INSERT INTO `ly_r_redbag` VALUES ('46AC605E4E9E477BA0114A0DE9DBB717', 'ka2r8exFeGad49WLiKY', 'oaASb1Q18_BQhQi2wGWDpSWMquBc', 'Panguaxe', '18300665808', 'http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eo74QWxFOpRB7lu4icp9S1puGcphjVYZ21Yg4Zz6qtuic65OiadK2QZ6oCMlibibqNnAs6QRiavzb8D0YNA/132', '6.000', '6', '2019-07-16 21:29:42', '6', '0', 'LUCK', 'JSAPI', '-1', '红包大吉大利', '30', null, null, '113.67602500', '34.75229300', '2019-07-16 21:29:42', null);
 
 -- ----------------------------
 -- Table structure for ly_r_redbagdetails
@@ -405,4 +405,4 @@ CREATE TABLE `ly_s_wechat` (
 -- ----------------------------
 -- Records of ly_s_wechat
 -- ----------------------------
-INSERT INTO `ly_s_wechat` VALUES ('8584ae7e08b649fba5f2212729ad7e61', 'ka2r8exFeGad49WLiKY', '18300665808', 'oaASb1Q18_BQhQi2wGWDpSWMquBc', 'http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eo74QWxFOpRB7lu4icp9S1puGcphjVYZ21Yg4Zz6qtuic65OiadK2QZ6oCMlibibqNnAs6QRiavzb8D0YNA/132', 'Mike Cium', '浙江', '杭州', 'o0xoR1WkQHKnaRiUg98cbF4OJLOE', null, '2018-09-15 17:20:13');
+INSERT INTO `ly_s_wechat` VALUES ('8584ae7e08b649fba5f2212729ad7e61', 'ka2r8exFeGad49WLiKY', '18300665808', 'oaASb1Q18_BQhQi2wGWDpSWMquBc', 'http://thirdwx.qlogo.cn/mmopen/vi_32/DYAIOgq83eo74QWxFOpRB7lu4icp9S1puGcphjVYZ21Yg4Zz6qtuic65OiadK2QZ6oCMlibibqNnAs6QRiavzb8D0YNA/132', 'Panguaxe', '浙江', '杭州', 'o0xoR1WkQHKnaRiUg98cbF4OJLOE', null, '2018-09-15 17:20:13');

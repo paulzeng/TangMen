@@ -5,7 +5,7 @@ import com.thoughtworks.xstream.annotations.XStreamAlias;
 /**
  * ClassName: PayBankRequest 
  * @Description: TODO --- 获取RSA公钥---请求
- * @author 作者：Mike
+ * @author 作者：Panguaxe
  * @date 2018年10月31日
  */
 public class GetpublickeyRequest {
