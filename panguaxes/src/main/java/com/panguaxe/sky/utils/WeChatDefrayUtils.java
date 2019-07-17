@@ -3,6 +3,7 @@ package com.panguaxe.sky.utils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.panguaxe.sky.common.AuthToken;
 import com.panguaxe.sky.config.WeChatPayConfig;
+import com.panguaxe.sky.utils.safe.Md5Utils;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.io.xml.DomDriver;
 import com.thoughtworks.xstream.io.xml.XmlFriendlyNameCoder;

@@ -1,4 +1,4 @@
-package com.panguaxe.sky.utils;
+package com.panguaxe.sky.utils.http;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Enumeration;

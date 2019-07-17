@@ -1,4 +1,4 @@
-package com.panguaxe.sky.utils;
+package com.panguaxe.sky.utils.safe;
 
 import java.security.MessageDigest;
 

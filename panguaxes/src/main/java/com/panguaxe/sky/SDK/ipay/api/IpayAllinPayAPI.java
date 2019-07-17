@@ -295,8 +295,9 @@ public class IpayAllinPayAPI {
 		if ("200".equals(code)) {
 			res = returnResultHandle(res, reqUrl, paramMap, result, paramMap.toString(), isHasStatus, statusName);
 		} else {
-			if (result.containsKey("data"))
+			if (result.containsKey("data")){
 				res.setData(result.getJSONObject("data"));
+			}
 			res.setMessage(ERROR_NOKOWN_MESSAGE);
 			res.setResultCode(GlobalEnums.RESULT_CODE_ENUMS.NETWORK_ANOMALY.getResultCode());
 		}
@@ -321,7 +322,7 @@ public class IpayAllinPayAPI {
 			if (result.containsKey("data")) {
 				JSONObject resultData = result.getJSONObject("data");// 通联返回data
 				if (resultData.containsKey("trxid")) {
-					res.setOederid(resultData.getString("trxid"));
+					res.setOrderid(resultData.getString("trxid"));
 				}
 				String retcode = resultData.getString("retcode");
 				String retmsg = resultData.getString("retmsg");
