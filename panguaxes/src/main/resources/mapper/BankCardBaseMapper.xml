@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.panguaxe.sky.land.mapper.BankCardBaseMapper">
+  <resultMap id="BaseResultMap" type="com.panguaxe.sky.land.model.BankCardBase">
+    <result column="id" jdbcType="VARCHAR" property="id" />
+    <result column="bankName" jdbcType="VARCHAR" property="bankName" />
+    <result column="bankAbbr" jdbcType="VARCHAR" property="bankAbbr" />
+    <result column="cardCode" jdbcType="VARCHAR" property="cardCode" />
+    <result column="cardName" jdbcType="VARCHAR" property="cardName" />
+    <result column="cardNoLength" jdbcType="VARCHAR" property="cardNoLength" />
+    <result column="binLength" jdbcType="VARCHAR" property="binLength" />
+    <result column="cardBin" jdbcType="VARCHAR" property="cardBin" />
+    <result column="cardType" jdbcType="VARCHAR" property="cardType" />
+  </resultMap>
+</mapper>

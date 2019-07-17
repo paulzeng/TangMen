@@ -22,37 +22,23 @@
 			userId="root"
 			password="root" />
 		<!-- 指定生成实体类 -->
-		<javaModelGenerator targetPackage="com.panguaxe.sky.land.model" targetProject="F:/workspace/work/panguaxes/src/main/java">
+		<javaModelGenerator targetPackage="com.panguaxe.sky.land.model" targetProject="F:/workspace/panguaxes/src/main/java">
 			<property name="enableSubPackages" value="true" />
 			<property name="trimStrings" value="true" />
 		</javaModelGenerator>
 		<!-- 指定生成映射xml -->
-		<sqlMapGenerator targetPackage="mapper" targetProject="F:/workspace/work/panguaxes/src/main/resources/">
+		<sqlMapGenerator targetPackage="mapper" targetProject="F:/workspace/panguaxes/src/main/resources/">
 			<property name="enableSubPackages" value="true" />
 			<property name="javaFileEncoding" value="UTF-8" />
 		</sqlMapGenerator>
 		<!-- 指定生成dao层 -->
-		<javaClientGenerator targetPackage="com.panguaxe.sky.land.mapper" targetProject="F:/workspace/work/panguaxes/src/main/java" type="XMLMAPPER">
+		<javaClientGenerator targetPackage="com.panguaxe.sky.land.mapper" targetProject="F:/workspace/panguaxes/src/main/java" type="XMLMAPPER">
 			<property name="enableSubPackages" value="true" />
 			<property name="javaFileEncoding" value="UTF-8" />
 		</javaClientGenerator>
 		
 		<!-- 生成 ly_s_account -->
-		<table tableName="ly_s_account" domainObjectName="Account" mapperName="AccountMapper"
-			enableCountByExample="false" enableUpdateByExample="false"
-			enableDeleteByExample="false" enableSelectByExample="false"
-			selectByExampleQueryId="false">
-			<!-- 指定实体类名称与数据库表的对应关系 该属性解决了生成实体类字段与数据库不对应的问题 -->
-			<property name="useActualColumnNames" value="true" />
-		</table>
-		<table tableName="ly_s_identify" domainObjectName="Identify" mapperName="IdentifyMapper"
-			enableCountByExample="false" enableUpdateByExample="false"
-			enableDeleteByExample="false" enableSelectByExample="false"
-			selectByExampleQueryId="false">
-			<!-- 指定实体类名称与数据库表的对应关系 该属性解决了生成实体类字段与数据库不对应的问题 -->
-			<property name="useActualColumnNames" value="true" />
-		</table>
-		<table tableName="ly_s_wechat" domainObjectName="WeChat" mapperName="WeChatMapper"
+		<table tableName="ly_b_bankcardbase" domainObjectName="BankCardBase" mapperName="BankCardBaseMapper"
 			enableCountByExample="false" enableUpdateByExample="false"
 			enableDeleteByExample="false" enableSelectByExample="false"
 			selectByExampleQueryId="false">
